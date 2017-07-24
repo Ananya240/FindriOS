@@ -14,7 +14,8 @@ class ViewControllerLogIn: UIViewController {
     @IBOutlet weak var passW: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(NSUserDefaults.standardUserDefaults().dictionaryRepresentation())
+        
         // Do any additional setup after loading the view.
     }
 
@@ -31,7 +32,7 @@ class ViewControllerLogIn: UIViewController {
         let storedEmail = NSUserDefaults.standardUserDefaults().stringForKey("email");
         let storedPassword = NSUserDefaults.standardUserDefaults().stringForKey("password");
         
-        if (email == storedEmail) {
+        if (email == storedEmail && email != "") {
             if (password == storedPassword) {
                 NSUserDefaults.standardUserDefaults().setBool(true, forKey: "isLoggedIn");
                 NSUserDefaults.standardUserDefaults().synchronize();
