@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A603E0721F264F8900F55F7F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603E0711F264F8900F55F7F /* MapViewController.swift */; };
+		A603E0741F26550500F55F7F /* MapContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603E0731F26550500F55F7F /* MapContainerViewController.swift */; };
 		A631E7441F1D896400594457 /* LostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A631E7431F1D896400594457 /* LostViewController.swift */; };
 		A631E7461F1D897400594457 /* FoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A631E7451F1D897400594457 /* FoundViewController.swift */; };
 		A631E7481F1EAF9F00594457 /* LostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A631E7471F1EAF9E00594457 /* LostItem.swift */; };
@@ -21,6 +23,7 @@
 		A6EF75ED1F185E4100DE72CA /* FindriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF75EC1F185E4100DE72CA /* FindriOSTests.swift */; };
 		A6EF75FD1F1880A400DE72CA /* ViewControllerRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF75FC1F1880A400DE72CA /* ViewControllerRegister.swift */; };
 		A6EF76011F1899F100DE72CA /* ViewControllerLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF76001F1899F100DE72CA /* ViewControllerLogIn.swift */; };
+		A7F4D006AE7A0775DCD407DA /* Pods_FindriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCDF31BB415DE7C1EA58116 /* Pods_FindriOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		439A2DFE0F9FC22FA9165C03 /* Pods-FindriOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindriOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindriOS/Pods-FindriOS.release.xcconfig"; sourceTree = "<group>"; };
+		70BAE3D83348E5325883C054 /* Pods-FindriOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindriOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindriOS/Pods-FindriOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A603E06E1F2646C700F55F7F /* FindriOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindriOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		A603E0711F264F8900F55F7F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A603E0731F26550500F55F7F /* MapContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapContainerViewController.swift; sourceTree = "<group>"; };
 		A631E7431F1D896400594457 /* LostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostViewController.swift; sourceTree = "<group>"; };
 		A631E7451F1D897400594457 /* FoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundViewController.swift; sourceTree = "<group>"; };
 		A631E7471F1EAF9E00594457 /* LostItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostItem.swift; sourceTree = "<group>"; };
@@ -52,6 +60,8 @@
 		A6EF75EC1F185E4100DE72CA /* FindriOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindriOSTests.swift; sourceTree = "<group>"; };
 		A6EF75FC1F1880A400DE72CA /* ViewControllerRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerRegister.swift; sourceTree = "<group>"; };
 		A6EF76001F1899F100DE72CA /* ViewControllerLogIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerLogIn.swift; sourceTree = "<group>"; };
+		ACCDF31BB415DE7C1EA58116 /* Pods_FindriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C187B695C144B5D571BB16D0 /* Pods_FindriOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindriOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F4D006AE7A0775DCD407DA /* Pods_FindriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35CFE165D682F845834E6856 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70BAE3D83348E5325883C054 /* Pods-FindriOS.debug.xcconfig */,
+				439A2DFE0F9FC22FA9165C03 /* Pods-FindriOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A6EF75C81F185E4100DE72CA = {
 			isa = PBXGroup;
 			children = (
 				A6EF75D31F185E4100DE72CA /* FindriOS */,
 				A6EF75E91F185E4100DE72CA /* FindriOSTests */,
 				A6EF75D21F185E4100DE72CA /* Products */,
+				35CFE165D682F845834E6856 /* Pods */,
+				FE90DB0FA6AC436EA760974D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +129,9 @@
 				A631E74B1F1F23D200594457 /* EditLostItemController.swift */,
 				A631E74D1F21692500594457 /* FoundItem.swift */,
 				A631E74F1F216C8A00594457 /* EditFoundItemController.swift */,
+				A603E06E1F2646C700F55F7F /* FindriOS-Bridging-Header.h */,
+				A603E0711F264F8900F55F7F /* MapViewController.swift */,
+				A603E0731F26550500F55F7F /* MapContainerViewController.swift */,
 			);
 			path = FindriOS;
 			sourceTree = "<group>";
@@ -136,6 +161,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FE90DB0FA6AC436EA760974D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACCDF31BB415DE7C1EA58116 /* Pods_FindriOS.framework */,
+				C187B695C144B5D571BB16D0 /* Pods_FindriOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6EF75F01F185E4100DE72CA /* Build configuration list for PBXNativeTarget "FindriOS" */;
 			buildPhases = (
+				B320E218D7113AC50323EEAA /* [CP] Check Pods Manifest.lock */,
 				A6EF75CD1F185E4100DE72CA /* Sources */,
 				A6EF75CE1F185E4100DE72CA /* Frameworks */,
 				A6EF75CF1F185E4100DE72CA /* Resources */,
+				56334294C92AC47965F73B29 /* [CP] Embed Pods Frameworks */,
+				DB6CE8F16D31EB022EDC21AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,12 +268,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56334294C92AC47965F73B29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindriOS/Pods-FindriOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B320E218D7113AC50323EEAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6CE8F16D31EB022EDC21AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindriOS/Pods-FindriOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A6EF75CD1F185E4100DE72CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A603E0721F264F8900F55F7F /* MapViewController.swift in Sources */,
 				A6EF76011F1899F100DE72CA /* ViewControllerLogIn.swift in Sources */,
+				A603E0741F26550500F55F7F /* MapContainerViewController.swift in Sources */,
 				A6EF75D91F185E4100DE72CA /* ViewController.swift in Sources */,
 				A631E74C1F1F23D200594457 /* EditLostItemController.swift in Sources */,
 				A631E7481F1EAF9F00594457 /* LostItem.swift in Sources */,
@@ -372,21 +459,28 @@
 		};
 		A6EF75F11F185E4100DE72CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BAE3D83348E5325883C054 /* Pods-FindriOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FindriOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FindriOS/FindriOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A6EF75F21F185E4100DE72CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439A2DFE0F9FC22FA9165C03 /* Pods-FindriOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FindriOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FindriOS/FindriOS-Bridging-Header.h";
 			};
 			name = Release;
 		};

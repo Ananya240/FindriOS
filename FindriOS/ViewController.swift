@@ -11,6 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+//        let placesArray = ["abc" :123, "22" :123, "zee": 234]
+//        let placesData = NSKeyedArchiver.archivedDataWithRootObject(placesArray)
+//        NSUserDefaults.standardUserDefaults().setObject(placesArray, forKey: "places")
+//        //print(NSUserDefaults.standardUserDefaults().dictionaryRepresentation())
+//        let arr = NSUserDefaults.standardUserDefaults().objectForKey("places")
+//        print(arr)
+        let arr = NSUserDefaults.standardUserDefaults().objectForKey("foundPlaces")
+        print(arr)
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
